@@ -9,10 +9,25 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PairingTestSpec.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>6243D0B4152B3BFA007C92B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6243D0E7152B3D94007C92B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6243D0FF152B3DC5007C92B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -18,6 +18,18 @@
 		6243D0D3152B3BFA007C92B5 /* PTMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6243D0D1152B3BFA007C92B5 /* PTMainViewController_iPhone.xib */; };
 		6243D0D6152B3BFA007C92B5 /* PTMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6243D0D4152B3BFA007C92B5 /* PTMainViewController_iPad.xib */; };
 		6243D0D9152B3BFA007C92B5 /* PTFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6243D0D7152B3BFA007C92B5 /* PTFlipsideViewController.xib */; };
+		6243D102152B3DC5007C92B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243D0B9152B3BFA007C92B5 /* UIKit.framework */; };
+		6243D103152B3DC5007C92B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243D0BB152B3BFA007C92B5 /* Foundation.framework */; };
+		6243D104152B3DC5007C92B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243D0BD152B3BFA007C92B5 /* CoreGraphics.framework */; };
+		6243D10A152B3DC5007C92B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6243D108152B3DC5007C92B5 /* InfoPlist.strings */; };
+		6243D10C152B3DC5007C92B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6243D10B152B3DC5007C92B5 /* main.m */; };
+		6243D110152B3DC5007C92B5 /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6243D10F152B3DC5007C92B5 /* PTAppDelegate.m */; };
+		6243D133152B3DFF007C92B5 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243D115152B3DFF007C92B5 /* Cedar-iOS.framework */; };
+		6243D134152B3DFF007C92B5 /* libExpecta-ios-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243D12D152B3DFF007C92B5 /* libExpecta-ios-universal.a */; };
+		6243D135152B3DFF007C92B5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6243D12E152B3DFF007C92B5 /* LICENSE */; };
+		6243D136152B3DFF007C92B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6243D131152B3DFF007C92B5 /* README.md */; };
+		6243D137152B3DFF007C92B5 /* OCMock-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243D132152B3DFF007C92B5 /* OCMock-iPhone.framework */; };
+		6243D137152B3DFF007C92BA /* ExampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6243D137152B3DFF007C92B9 /* ExampleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +50,44 @@
 		6243D0D2152B3BFA007C92B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTMainViewController_iPhone.xib; sourceTree = "<group>"; };
 		6243D0D5152B3BFA007C92B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTMainViewController_iPad.xib; sourceTree = "<group>"; };
 		6243D0D8152B3BFA007C92B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTFlipsideViewController.xib; sourceTree = "<group>"; };
+		6243D0FB152B3D95007C92B5 /* PairingTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PairingTest copy-Info.plist"; path = "/Users/PairingStationOne/workspace/PairingTest/PairingTest/PairingTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		6243D100152B3DC5007C92B5 /* PairingTestSpec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairingTestSpec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6243D107152B3DC5007C92B5 /* PairingTestSpec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PairingTestSpec-Info.plist"; sourceTree = "<group>"; };
+		6243D109152B3DC5007C92B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6243D10B152B3DC5007C92B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6243D10D152B3DC5007C92B5 /* PairingTestSpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PairingTestSpec-Prefix.pch"; sourceTree = "<group>"; };
+		6243D10E152B3DC5007C92B5 /* PTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTAppDelegate.h; sourceTree = "<group>"; };
+		6243D10F152B3DC5007C92B5 /* PTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTAppDelegate.m; sourceTree = "<group>"; };
+		6243D115152B3DFF007C92B5 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Cedar-iOS.framework"; sourceTree = "<group>"; };
+		6243D117152B3DFF007C92B5 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPDoubleTuple.h; sourceTree = "<group>"; };
+		6243D118152B3DFF007C92B5 /* Expecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expecta.h; sourceTree = "<group>"; };
+		6243D119152B3DFF007C92B5 /* ExpectaSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectaSupport.h; sourceTree = "<group>"; };
+		6243D11A152B3DFF007C92B5 /* EXPExpect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPExpect.h; sourceTree = "<group>"; };
+		6243D11B152B3DFF007C92B5 /* EXPFloatTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPFloatTuple.h; sourceTree = "<group>"; };
+		6243D11C152B3DFF007C92B5 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		6243D11D152B3DFF007C92B5 /* EXPMatchers+toBeFalsy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeFalsy.h"; sourceTree = "<group>"; };
+		6243D11E152B3DFF007C92B5 /* EXPMatchers+toBeGreaterThan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeGreaterThan.h"; sourceTree = "<group>"; };
+		6243D11F152B3DFF007C92B5 /* EXPMatchers+toBeGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		6243D120152B3DFF007C92B5 /* EXPMatchers+toBeIdenticalTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeIdenticalTo.h"; sourceTree = "<group>"; };
+		6243D121152B3DFF007C92B5 /* EXPMatchers+toBeInstanceOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeInstanceOf.h"; sourceTree = "<group>"; };
+		6243D122152B3DFF007C92B5 /* EXPMatchers+toBeInTheRangeOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeInTheRangeOf.h"; sourceTree = "<group>"; };
+		6243D123152B3DFF007C92B5 /* EXPMatchers+toBeKindOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeKindOf.h"; sourceTree = "<group>"; };
+		6243D124152B3DFF007C92B5 /* EXPMatchers+toBeLessThan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeLessThan.h"; sourceTree = "<group>"; };
+		6243D125152B3DFF007C92B5 /* EXPMatchers+toBeLessThanOrEqualTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeLessThanOrEqualTo.h"; sourceTree = "<group>"; };
+		6243D126152B3DFF007C92B5 /* EXPMatchers+toBeNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeNil.h"; sourceTree = "<group>"; };
+		6243D127152B3DFF007C92B5 /* EXPMatchers+toBeSubclassOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeSubclassOf.h"; sourceTree = "<group>"; };
+		6243D128152B3DFF007C92B5 /* EXPMatchers+toBeTruthy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeTruthy.h"; sourceTree = "<group>"; };
+		6243D129152B3DFF007C92B5 /* EXPMatchers+toContain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toContain.h"; sourceTree = "<group>"; };
+		6243D12A152B3DFF007C92B5 /* EXPMatchers+toEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toEqual.h"; sourceTree = "<group>"; };
+		6243D12B152B3DFF007C92B5 /* EXPMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPMatchers.h; sourceTree = "<group>"; };
+		6243D12C152B3DFF007C92B5 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		6243D12D152B3DFF007C92B5 /* libExpecta-ios-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libExpecta-ios-universal.a"; sourceTree = "<group>"; };
+		6243D12E152B3DFF007C92B5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6243D12F152B3DFF007C92B5 /* NSObject+Expecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Expecta.h"; sourceTree = "<group>"; };
+		6243D130152B3DFF007C92B5 /* NSValue+Expecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Expecta.h"; sourceTree = "<group>"; };
+		6243D131152B3DFF007C92B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		6243D132152B3DFF007C92B5 /* OCMock-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "OCMock-iPhone.framework"; sourceTree = "<group>"; };
+		6243D137152B3DFF007C92B9 /* ExampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +101,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6243D0FD152B3DC5007C92B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6243D102152B3DC5007C92B5 /* UIKit.framework in Frameworks */,
+				6243D103152B3DC5007C92B5 /* Foundation.framework in Frameworks */,
+				6243D104152B3DC5007C92B5 /* CoreGraphics.framework in Frameworks */,
+				6243D133152B3DFF007C92B5 /* Cedar-iOS.framework in Frameworks */,
+				6243D134152B3DFF007C92B5 /* libExpecta-ios-universal.a in Frameworks */,
+				6243D137152B3DFF007C92B5 /* OCMock-iPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,8 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				6243D0BF152B3BFA007C92B5 /* PairingTest */,
+				6243D105152B3DC5007C92B5 /* PairingTestSpec */,
 				6243D0B8152B3BFA007C92B5 /* Frameworks */,
 				6243D0B6152B3BFA007C92B5 /* Products */,
+				6243D0FB152B3D95007C92B5 /* PairingTest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6243D0B5152B3BFA007C92B5 /* PairingTest.app */,
+				6243D100152B3DC5007C92B5 /* PairingTestSpec.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +175,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6243D105152B3DC5007C92B5 /* PairingTestSpec */ = {
+			isa = PBXGroup;
+			children = (
+				6243D10E152B3DC5007C92B5 /* PTAppDelegate.h */,
+				6243D10F152B3DC5007C92B5 /* PTAppDelegate.m */,
+				6243D114152B3DFF007C92B5 /* External */,
+				6243D106152B3DC5007C92B5 /* Supporting Files */,
+				6243D137152B3DFF007C92B6 /* Specs */,
+			);
+			path = PairingTestSpec;
+			sourceTree = "<group>";
+		};
+		6243D106152B3DC5007C92B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6243D107152B3DC5007C92B5 /* PairingTestSpec-Info.plist */,
+				6243D108152B3DC5007C92B5 /* InfoPlist.strings */,
+				6243D10B152B3DC5007C92B5 /* main.m */,
+				6243D10D152B3DC5007C92B5 /* PairingTestSpec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6243D114152B3DFF007C92B5 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				6243D115152B3DFF007C92B5 /* Cedar-iOS.framework */,
+				6243D116152B3DFF007C92B5 /* Expecta */,
+				6243D132152B3DFF007C92B5 /* OCMock-iPhone.framework */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		6243D116152B3DFF007C92B5 /* Expecta */ = {
+			isa = PBXGroup;
+			children = (
+				6243D117152B3DFF007C92B5 /* EXPDoubleTuple.h */,
+				6243D118152B3DFF007C92B5 /* Expecta.h */,
+				6243D119152B3DFF007C92B5 /* ExpectaSupport.h */,
+				6243D11A152B3DFF007C92B5 /* EXPExpect.h */,
+				6243D11B152B3DFF007C92B5 /* EXPFloatTuple.h */,
+				6243D11C152B3DFF007C92B5 /* EXPMatcherHelpers.h */,
+				6243D11D152B3DFF007C92B5 /* EXPMatchers+toBeFalsy.h */,
+				6243D11E152B3DFF007C92B5 /* EXPMatchers+toBeGreaterThan.h */,
+				6243D11F152B3DFF007C92B5 /* EXPMatchers+toBeGreaterThanOrEqualTo.h */,
+				6243D120152B3DFF007C92B5 /* EXPMatchers+toBeIdenticalTo.h */,
+				6243D121152B3DFF007C92B5 /* EXPMatchers+toBeInstanceOf.h */,
+				6243D122152B3DFF007C92B5 /* EXPMatchers+toBeInTheRangeOf.h */,
+				6243D123152B3DFF007C92B5 /* EXPMatchers+toBeKindOf.h */,
+				6243D124152B3DFF007C92B5 /* EXPMatchers+toBeLessThan.h */,
+				6243D125152B3DFF007C92B5 /* EXPMatchers+toBeLessThanOrEqualTo.h */,
+				6243D126152B3DFF007C92B5 /* EXPMatchers+toBeNil.h */,
+				6243D127152B3DFF007C92B5 /* EXPMatchers+toBeSubclassOf.h */,
+				6243D128152B3DFF007C92B5 /* EXPMatchers+toBeTruthy.h */,
+				6243D129152B3DFF007C92B5 /* EXPMatchers+toContain.h */,
+				6243D12A152B3DFF007C92B5 /* EXPMatchers+toEqual.h */,
+				6243D12B152B3DFF007C92B5 /* EXPMatchers.h */,
+				6243D12C152B3DFF007C92B5 /* EXPUnsupportedObject.h */,
+				6243D12D152B3DFF007C92B5 /* libExpecta-ios-universal.a */,
+				6243D12E152B3DFF007C92B5 /* LICENSE */,
+				6243D12F152B3DFF007C92B5 /* NSObject+Expecta.h */,
+				6243D130152B3DFF007C92B5 /* NSValue+Expecta.h */,
+				6243D131152B3DFF007C92B5 /* README.md */,
+			);
+			path = Expecta;
+			sourceTree = "<group>";
+		};
+		6243D137152B3DFF007C92B6 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				6243D137152B3DFF007C92B9 /* ExampleSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +268,23 @@
 			name = PairingTest;
 			productName = PairingTest;
 			productReference = 6243D0B5152B3BFA007C92B5 /* PairingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6243D0FF152B3DC5007C92B5 /* PairingTestSpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6243D111152B3DC5007C92B5 /* Build configuration list for PBXNativeTarget "PairingTestSpec" */;
+			buildPhases = (
+				6243D0FC152B3DC5007C92B5 /* Sources */,
+				6243D0FD152B3DC5007C92B5 /* Frameworks */,
+				6243D0FE152B3DC5007C92B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PairingTestSpec;
+			productName = PairingTestSpec;
+			productReference = 6243D100152B3DC5007C92B5 /* PairingTestSpec.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,6 +309,7 @@
 			projectRoot = "";
 			targets = (
 				6243D0B4152B3BFA007C92B5 /* PairingTest */,
+				6243D0FF152B3DC5007C92B5 /* PairingTestSpec */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +326,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6243D0FE152B3DC5007C92B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6243D10A152B3DC5007C92B5 /* InfoPlist.strings in Resources */,
+				6243D135152B3DFF007C92B5 /* LICENSE in Resources */,
+				6243D136152B3DFF007C92B5 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -178,6 +347,16 @@
 				6243D0CA152B3BFA007C92B5 /* PTAppDelegate.m in Sources */,
 				6243D0CD152B3BFA007C92B5 /* PTMainViewController.m in Sources */,
 				6243D0D0152B3BFA007C92B5 /* PTFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6243D0FC152B3DC5007C92B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6243D10C152B3DC5007C92B5 /* main.m in Sources */,
+				6243D110152B3DC5007C92B5 /* PTAppDelegate.m in Sources */,
+				6243D137152B3DFF007C92BA /* ExampleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +393,14 @@
 				6243D0D8152B3BFA007C92B5 /* en */,
 			);
 			name = PTFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+		6243D108152B3DC5007C92B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6243D109152B3DC5007C92B5 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +473,56 @@
 			};
 			name = Release;
 		};
+		6243D112152B3DC5007C92B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PairingTestSpec/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PairingTestSpec/PairingTestSpec-Prefix.pch";
+				INFOPLIST_FILE = "PairingTestSpec/PairingTestSpec-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PairingTestSpec/External/Expecta\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6243D113152B3DC5007C92B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PairingTestSpec/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PairingTestSpec/PairingTestSpec-Prefix.pch";
+				INFOPLIST_FILE = "PairingTestSpec/PairingTestSpec-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PairingTestSpec/External/Expecta\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -303,6 +540,14 @@
 			buildConfigurations = (
 				6243D0DD152B3BFA007C92B5 /* Debug */,
 				6243D0DE152B3BFA007C92B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6243D111152B3DC5007C92B5 /* Build configuration list for PBXNativeTarget "PairingTestSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6243D112152B3DC5007C92B5 /* Debug */,
+				6243D113152B3DC5007C92B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
